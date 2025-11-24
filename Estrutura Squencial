@@ -1,0 +1,161 @@
+#include <stdio.h>
+
+
+
+int main (){
+
+   
+
+  int num1, num2, soma, multiplicacao;
+
+   
+
+   printf("Digite o primeiro numero:\n");
+
+   scanf("%d", &num1);
+
+    
+
+   printf ("Digite o segundo numero:\n");
+
+   scanf ("%d", &num2);
+
+    
+
+   soma = num1 + num2;
+
+   multiplicacao = num1 * num2;
+
+    
+
+   printf ("A soma dos numeros escolhidos e: %d + %d = %d\n", num1 ,num2, soma);
+
+   printf ("A multiplicao dos numeros escolhidos e: %d * %d = %d", num1, num2, multiplicacao);
+
+   
+
+  return 0;
+
+}
+
+
+
+
+
+Exercício 2:
+
+
+
+#include <stdio.h>
+
+
+
+int main (){
+
+   
+
+  float num1, num2, media;
+
+   
+
+  printf("Digite um numero real:\n");
+
+  scanf("%f", &num1);
+
+   
+
+  printf("Digite outro numero real:\n");
+
+  scanf("%f", &num2);
+
+   
+
+  media = (num1 + num2) / 2;
+
+   
+
+  printf("A media entre %.1f e %.1f e %.1f.\n", num1, num2, media);
+
+   
+
+  return 0;
+
+}
+
+
+
+
+
+Exercício 3:
+
+
+
+#include <stdio.h>
+
+
+
+int main (){
+
+   
+
+  int numR, ante, suce;
+
+   
+
+  printf("Digite um numero qualquer.\n");
+
+  scanf("%d", &numR);
+
+   
+
+  ante = numR - 1;
+
+  suce = numR + 1;
+
+   
+
+  printf("Numero digitado %d. Sucessor: %d. Antecessor: %d.\n", numR, suce, ante);
+
+   
+
+  return 0;
+
+}
+
+
+
+
+
+Exercício 4:
+
+
+
+#include <stdio.h>
+
+
+
+int main (){
+
+   
+
+  int num, resultado;
+
+   
+
+  printf("Digite um numero qualquer:\n");
+
+  scanf("%d", &num);
+
+   
+
+  resultado = num * num;
+
+   
+
+  printf("O numero %d elevado a 2 e %d.\n", num, resultado);
+
+   
+
+  return 0;
+
+}
